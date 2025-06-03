@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-neutral-950 text-white;
+}
+
+button {
+  @apply rounded px-4 py-2 hover:opacity-80 transition;
+}
